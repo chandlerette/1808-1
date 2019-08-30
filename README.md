@@ -1,4 +1,4 @@
-[中文](https://github.com/Cocos-BCX/1808/blob/master/README_cn.md)
+[中文](https://github.com/CocosBCX/1808/blob/master/README_cn.md)
 
 # 1808 Standard & Multiverse System v1.0  
 
