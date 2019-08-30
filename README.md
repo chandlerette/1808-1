@@ -83,7 +83,7 @@ As for the 1808 Standard, when an asset instance is referenced in a new business
 
 #### Assets Used as an Embedded or Combined Module on the Blockchain
 
-![P1](https://github.com/Cocos-BCX/1808/blob/master/readmeimg/1_en.png)
+![P1](https://github.com/CocosBCX/1808/blob/master/readmeimg/1_en.png)
 
   Game props and equipment may be composed of multiple components and items. Therefore, the non-homogeneous digital assets of blockchain games should also be able to be nested and contained. In this case, each non-homogeneous asset can be composed of multiple non-homogeneous assets. The main asset can contain one or more sub-assets, and the sub-assets can further contain other sub-assets.   
   
@@ -93,7 +93,7 @@ As for the 1808 Standard, when an asset instance is referenced in a new business
 
   In the future, the market behavior of assets in the chain will be far beyond the traditional trading and circulation, so it is nesssary to lay a good foundation for a richer business type. Cocos-BCX refined the rights system of the assets and divided the rights of use and ownership of the assets.   
   
-  ![P2](https://github.com/Cocos-BCX/1808/blob/master/readmeimg/2_en.png)
+  ![P2](https://github.com/CocosBCX/1808/blob/master/readmeimg/2_en.png)
   
   1808 Standard’s design of separating the assets ownership from the right to use specifies existing permission system of the assets. The use right determines whether the user has the permission on most operations, while the ownership determines whether the user has the actual ownership and key rights to operate the assets. Certain operations are required to be co-signed by the owner and user.   
 Based on BCX contract system, 1808 Standard can easily deliver the business logic unable to be implemented with traditional blockchain/contract system, such as asset lease, pledges, and pawn.   
@@ -110,12 +110,12 @@ Based on BCX contract system, 1808 Standard can easily deliver the business logi
 * ERC-998  
   It is a combination of non-homologous tokens (CNFT, Composable NFTs) defined in Ethereum's smart contracts proposed by Matt Lockyer.   
   
-  ![P3](https://github.com/Cocos-BCX/1808/blob/master/readmeimg/3_en.png)
+  ![P3](https://github.com/CocosBCX/1808/blob/master/readmeimg/3_en.png)
 
   The figure shows the comparison of the above three non-homogeneous asset standards with COCOS 1808, which briefly compares the essentials that may be involved in blockchain and gaming. The differences marked in red are the features of the 1808 Standard designed by Cocos-BCX for the game running on-chain. These features are related to the data structure design of the 1808 standard assets in addition to the characteristics of the BCX chain network itself.  
 ### Data Structure of 1808 Standard  
 
-![P4](https://github.com/Cocos-BCX/1808/blob/master/readmeimg/4_en.png)
+![P4](https://github.com/CocosBCX/1808/blob/master/readmeimg/4_en.png)
 
   The non-homogeneous digital assets data structure in the blockchain network is divided into fixed data zone and  extensible data area. The fixed data zone stores the basic information of non-homogeneous digital assets, including asset ID, multiverse statement and basic data zone; While the extensible data area is a functional section designed for attribute extension of non-homogeneous digital assets, including zone data and combination relationship data.   
   
@@ -211,7 +211,7 @@ It can be argued that a well-defined standardized non-homogeneous digital asset 
 
   Different from the concept of the traditional game industry, BCX's blockchain games are not completely independent business scenarios. Each blockchain game can be considered a game universe, and several game universes with similar basic settings can be considered to have a common multiverse.  
   
-![P5](https://github.com/Cocos-BCX/1808/blob/master/readmeimg/5_en.png)  
+![P5](https://github.com/CocosBCX/1808/blob/master/readmeimg/5_en.png)  
 
   The concept of multiverse is not created by blockchain gaming, but a feature already shared by many modern games. For example, Warcraft, World of Warcraft, Hearthstone, and The Legend of Storm share a common multiverse of Blizzard universe, in which a considerable part of game props, characters, and assets are common. Although these assets have a different explanation on specific attributes, skills, etc. in each game, the design of these assets stems from the common basic rules.  
   
@@ -225,7 +225,7 @@ It can be argued that a well-defined standardized non-homogeneous digital asset 
   
   Scalable custom data enables game designers to create unique game assets. Non-interfering zone data allows game assets to be given new properties that are an immune while "travelling" the universes and the multiverse, while also making it possible of data linkage between games (such as skill gain/reduction). The image below is an example of the on-chain game assets travelling across the universe line/parallel universes:  
   
-![P6](https://github.com/Cocos-BCX/1808/blob/master/readmeimg/6_en.png)  
+![P6](https://github.com/CocosBCX/1808/blob/master/readmeimg/6_en.png)  
 
   According to the game operation design, the 1808 non-homogeneous assets standard support the design of paid travelling across the universe line through a specific third-party. This is helpful for game operation to meet the needs of item balance and asset circulation control.  
   
@@ -347,7 +347,7 @@ end
   
 ### Lease 
 
-![P7](https://github.com/Cocos-BCX/1808/blob/master/readmeimg/7_en.png)  
+![P7](https://github.com/CocosBCX/1808/blob/master/readmeimg/7_en.png)  
 
 Contract Design:  
 * Define the functions for the leasing business, such as initiating leases, transferring use right, reclaiming use right, inventory status queries, and inventory updates.   
@@ -361,7 +361,7 @@ Process:
 
 ### Pledge
 
-![P8](https://github.com/Cocos-BCX/1808/blob/master/readmeimg/8_en.png)  
+![P8](https://github.com/CocosBCX/1808/blob/master/readmeimg/8_en.png)  
 
 Contract Design:  
 * Define the functions of the pledging business, such as initiating pledges, transferring ownership, reclaiming use right, collateral status query, and setting up pledge-backed lists;  
@@ -374,7 +374,7 @@ Process:
 
 ### Pawn
 
-![P9](https://github.com/Cocos-BCX/1808/blob/master/readmeimg/9_en.png)  
+![P9](https://github.com/CocosBCX/1808/blob/master/readmeimg/9_en.png)  
 
 Contract Design:  
 * Define the functions of the pawn business, such as initiating pawn, transferring the use right, reclaiming ownership, the status query of a pawned item, and setting up a pawn list;  
